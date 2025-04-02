@@ -5,6 +5,7 @@ Pictures have been added in order to better convey the idea; they'd obviously ne
 - ~~[In-article suggestions](#In-article-suggestions)~~
 - ~~[Improved media categorization](#Improved-media-categorization)~~
 - [Statements filter in MediaSearch](#Statements-filter-in-MediaSearch)
+- [Entity search in MediaSearch](#Entity-search-in-MediaSearch)
 - [Similar media](#Similar-media)
 - [Article gallery](#Article-gallery)
 - [Add MediaSearch to Wikipedias](#Add-MediaSearch-to-Wikipedias)
@@ -63,22 +64,6 @@ Pictures have been added in order to better convey the idea; they'd obviously ne
 ![Proposal: step 3](/img/categories-3.png)
 
 
-# Entity search in MediaSearch
-
-MediaSearch is a fairly brute tool: in addition to plain text search, it's also going to try to match the term to one or more Wikidata entities, but its ability to do so depends on the quality of the search term (i.e. input phrased as questions isn't going to work), and is limited to only 1 entity.
-It would be nice if we could bypass the whole "what entit(y|ies) does the user mean" by just letting them input it/them straight away.
-
-Something like this, maybe, where we support either simple text search (as we do now), or allow them to switch to statements input (e.g. like in UploadWizard's statement input field):
-
-## Text
-
-![Proposal: text search](/img/mediasearch-text.png)
-
-## Entity
-
-![Proposal: entity search](/img/mediasearch-entity.png)
-
-
 # Statements filter in MediaSearch
 
 ## Current
@@ -100,6 +85,22 @@ Benefits:
 ![Proposal: step 4](/img/filter-4.png)
 ![Proposal: step 5](/img/filter-5.png)
 ![Proposal: step 6](/img/filter-6.png)
+
+
+# Entity search in MediaSearch
+
+MediaSearch is a fairly brute tool: in addition to plain text search, it's also going to try to match the term to one or more Wikidata entities, but its ability to do so depends on the quality of the search term (i.e. input phrased as questions isn't going to work), and is limited to only 1 entity.
+It would be nice if we could bypass the whole "what entit(y|ies) does the user mean" by just letting them input it/them straight away.
+
+Something like this, maybe, where we support either simple text search (as we do now), or allow them to switch to statements input (e.g. like in UploadWizard's statement input field):
+
+## Text
+
+![Proposal: text search](/img/mediasearch-text.png)
+
+## Entity
+
+![Proposal: entity search](/img/mediasearch-entity.png)
 
 
 # Similar media
