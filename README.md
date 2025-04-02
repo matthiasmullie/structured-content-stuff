@@ -10,7 +10,6 @@ Pictures have been added in order to better convey the idea; they'd obviously ne
 - [Article gallery](#Article-gallery)
 - [Add MediaSearch to Wikipedias](#Add-MediaSearch-to-Wikipedias)
 - [Improve MediaSearch algorithm](#Improve-MediaSearch-algorithm)
-- [Add more weighted_tags](#Add-more-weighted_tags)
 
 
 # In-article suggestions
