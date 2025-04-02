@@ -180,7 +180,7 @@ Solutions could range anywhere from the simplest imaginable implementation that 
 
 ...to a more integrated implementation with a scaled-back version of media-targeted improvements (better results, media grid view)...
 
-...to a more full-blow MediaSearch integration into Wikipedias, if we find that there is sufficient appetite for it.
+...to a more full-blown MediaSearch integration into Wikipedias, if we find that there is sufficient appetite for it.
 
 
 # Improve MediaSearch algorithm
