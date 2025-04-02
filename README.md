@@ -6,6 +6,7 @@ Pictures have been added in order to better convey the idea; they'd obviously ne
 - ~~[Improved media categorization](#Improved-media-categorization)~~
 - [Statements filter in MediaSearch](#Statements-filter-in-MediaSearch)
 - [Similar media](#Similar-media)
+- [Article gallery](#Article-gallery)
 - [Add MediaSearch to Wikipedias](#Add-MediaSearch-to-Wikipedias)
 - [Improve MediaSearch algorithm](#Improve-MediaSearch-algorithm)
 - [Add more weighted_tags](#Add-more-weighted_tags)
@@ -150,6 +151,17 @@ Just a bunch of media that are in some way related to the one that's being viewe
 Or more granular, based on discreet statements that are linked to the image being viewed:
 
 ![Proposal](/img/mmv-related-2.png)
+
+
+# Article gallery
+
+Of course, we could also show imagery related to an article right in or near the article itself.
+
+![Proposal](/img/article-gallery.png)
+
+It would be neat if we could somehow categorize (e.g. for a painter, have a list of photos, a list of their art, ...) or specialize (e.g. their styles, their subjects, ...), but it doesn't look like we can really leverage categories (both too much noise and too little of practical interest) or structured data (well, maybe in theory, but it would require so many hand-crafted statement traversal that it wouldn't scale; plus noisy data may also be an issue)
+
+I'm not sure we're able to do better than a generic "images related to this article", but that may still be a very useful feature, especially in underdeveloped articles/languages.
 
 
 # Add MediaSearch to Wikipedias
