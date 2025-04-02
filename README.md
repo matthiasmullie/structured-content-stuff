@@ -6,7 +6,9 @@ Pictures have been added in order to better convey the idea; they'd obviously ne
 - ~~[Improved media categorization](#Improved-media-categorization)~~
 - [Statements filter in MediaSearch](#Statements-filter-in-MediaSearch)
 - [Similar media](#Similar-media)
+- [Add MediaSearch to Wikipedias](#Add-MediaSearch-to-Wikipedias)
 - [Improve MediaSearch algorithm](#Improve-MediaSearch-algorithm)
+- [Add more weighted_tags](#Add-more-weighted_tags)
 
 
 # In-article suggestions
@@ -148,6 +150,25 @@ Just a bunch of media that are in some way related to the one that's being viewe
 Or more granular, based on discreet statements that are linked to the image being viewed:
 
 ![Proposal](/img/mmv-related-2.png)
+
+
+# Add MediaSearch to Wikipedias
+
+Searching media on Wikipedia right now is ... well, it ain't a great experience!
+Results are poor (not able to take advantage of all the structured data related improvements in MediaSearch) and not presented in a way that is conducive to finding media.
+
+That said, we don't really know how big the appetite for media search is on Wikipedia. Do people not use it all? If not, is it because they're not aware it exists, or because it's bad? If they do: do they use it for finding imagery in order to consume, or to add to articles?
+
+Either way, unless they already know about Commons, finding imagery on Wikipedia is a pain, and we can do better!
+
+Solutions could range anywhere from the simplest imaginable implementation that just helps guide people to the right place to find imagery (i.e. Commons)...
+
+![Proposal: article search](/img/search-toggle-articles.png)
+![Proposal: media search](/img/search-toggle-media.png)
+
+...to a more integrated implementation with a scaled-back version of media-targeted improvements (better results, media grid view)...
+
+...to a more full-blow MediaSearch integration into Wikipedias, if we find that there is sufficient appetite for it.
 
 
 # Improve MediaSearch algorithm
